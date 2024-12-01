@@ -16,9 +16,6 @@ public class MTKCanggihBeraksi {
         int kali = call.kali();
         System.out.println("Hasil kali : " + kali);
        
-        call.setA(7);
-        call.setB(3);
-
         int modulus = call.modulus();
         System.out.println("Hasil modulus : " + modulus);
     }
